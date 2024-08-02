@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fiap.CleanArchitecture.Gateway\Fiap.CleanArchitecture.Gateway.csproj" />
+    <ProjectReference Include="..\Fiap.CleanArchitecture.Presenter\Fiap.CleanArchitecture.Presenter.csproj" />
+    <ProjectReference Include="..\Fiap.CleanArchitecture.UseCase\Fiap.CleanArchitecture.UseCase.csproj" />
+  </ItemGroup>
+
+</Project>
